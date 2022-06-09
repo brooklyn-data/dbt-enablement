@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: website
+    database: data_loader
+    schema: website
+    tables:
+      - name: orders
+        identifier: orders

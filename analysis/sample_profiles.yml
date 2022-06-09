@@ -1,0 +1,14 @@
+bdc-dbt-enablement:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      schema:  dev_yourname # Replace 'yourname' with your name (e.g., dev_tonystark)
+      threads: 4
+
+      # Your instructor will provide these in the live session
+      account:
+      database:
+      warehouse:
+      user:
+      password:
