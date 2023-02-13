@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: website
-    database: data_loader
+    database: enablement_data_loader
     schema: website
     tables:
       - name: orders
