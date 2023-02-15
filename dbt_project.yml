@@ -6,7 +6,7 @@ config-version: 2
 profile: 'bdc-dbt-enablement'
 
 model-paths: ["models"]
-analysis-paths: ["analyses"]
+analysis-paths: ["analysis"]
 test-paths: ["tests"]
 seed-paths: ["seeds"]
 macro-paths: ["macros"]
